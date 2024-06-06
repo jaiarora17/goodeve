@@ -1,0 +1,41 @@
+body {
+    background-color: #ffe5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.message {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    position: relative;
+}
+
+.message h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+}
+
+.teddy-bear {
+    width: 150px;
+    height: auto;
+}
+
+.heart {
+    font-size: 5em;
+    color: #ff0000;
+    position: absolute;
+    bottom: -25px;
+    right: -25px;
+}
